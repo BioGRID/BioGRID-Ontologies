@@ -1,0 +1,220 @@
+format-version: 1.2
+data-version: 2.3
+date: 12:06:2015 03:45
+saved-by: stark
+default-namespace: biogrid_ontologies
+
+[Term]
+id: BIOGRID_SYSTEM:0000001
+name: Experimental System
+def: "BioGRID Experimental Systems used to classify interactions" [BIOGRID:curators]
+
+[Term]
+id: BIOGRID_SYSTEM:0000002
+name: Physical Interaction
+is_a: BIOGRID_SYSTEM:0000001 ! Experimental System
+
+[Term]
+id: BIOGRID_SYSTEM:0000003
+name: In Vivo
+is_a: BIOGRID_SYSTEM:0000002 ! Physical Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000006
+name: Affinity Capture-Luminescence
+def: "An interaction is inferred when a bait protein, tagged with luciferase, is enzymatically detected in immunoprecipitates of the prey protein as light emission. The prey protein is affinity captured from cell extracts by either polyclonal antibody or epitope tag." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000007
+name: Affinity Capture-MS
+def: "An interaction is inferred when a bait protein is affinity captured from cell extracts by either polyclonal antibody or epitope tag and the associated interaction partner is identified by mass spectrometric methods." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000008
+name: Affinity Capture-RNA
+def: "An interaction is inferred when a bait protein is affinity captured from cell extracts by either polyclonal antibody or epitope tag and associated RNA species identified by Northern blot, RT-PCR, affinity labeling, sequencing, or microarray analysis." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000009
+name: Affinity Capture-Western
+def: "An interaction is inferred when a bait protein is affinity captured from cell extracts by either polyclonal antibody or epitope tag and the associated interaction partner identified by Western blot with a specific polyclonal antibody or second epitope tag. This category is also used if an interacting protein is visualized directly by dye stain or radioactivity. Note that this differs from any co-purification experiment involving affinity capture in that the co-purification experiment involves at least one extra purification step to get rid of potential contaminating proteins." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000010
+name: Co-fractionation
+def: "Interaction inferred from the presence of two or more protein subunits in a partially purified protein preparation. If co-fractionation is demonstrated between 3 or more proteins, then add them as a complex." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000011
+name: Co-localization
+def: "Interaction inferred from two proteins that co-localize in the cell by indirect immunofluorescence only when in addition, if one gene is deleted, the other protein becomes mis-localized. Also includes co-dependent association of proteins with promoter DNA in chromatin immunoprecipitation experiments." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000012
+name: Co-purification
+def: "An interaction is inferred from the identification of two or more protein subunits in a purified protein complex, as obtained by classical biochemical fractionation or affinity purification and one or more additional fractionation steps." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000013
+name: FRET
+def: "An interaction is inferred when close proximity of interaction partners is detected by fluorescence resonance energy transfer between pairs of fluorophore-labeled molecules, such as occurs between CFP (donor) and YFP (acceptor) fusion proteins." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000014
+name: PCA
+def: "A Protein-Fragment Complementation Assay (PCA) is a protein-protein interaction assay in which a bait protein is expressed as fusion to one of the either N- or C- terminal peptide fragments of a reporter protein and prey protein is expressed as fusion to the complementary N- or C- terminal fragment of the same reporter protein. Interaction of bait and prey proteins bring together complementary fragments, which can then fold into an active reporter, e.g. the split-ubiquitin assay." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000015
+name: Two-hybrid
+def: "Bait protein expressed as a DNA binding domain (DBD) fusion and prey expressed as a transcriptional activation domain (TAD) fusion and interaction measured by reporter gene activation." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000037
+name: Proximity Label-MS
+def: "An interaction is inferred when a bait-enzyme fusion protein selectively modifies a vicinal protein with a diffusible reactive product, followed by affinity capture of the modified protein and identification by mass spectrometric methods." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000003 ! In Vivo
+
+[Term]
+id: BIOGRID_SYSTEM:0000004
+name: In Vitro
+is_a: BIOGRID_SYSTEM:0000002 ! Physical Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000016
+name: Biochemical Activity
+def: "An interaction is inferred from the biochemical effect of one protein upon another, for example, GTP-GDP exchange activity or phosphorylation of a substrate by a kinase. The bait protein executes the activity on the substrate hit protein. A Modification value is recorded for interactions of this type with the possible values Phosphorylation, Ubiquitination, Sumoylation, Dephosphorylation, Methylation, Prenylation, Acetylation, Deubiquitination, Proteolytic Processing, Glucosylation, Nedd(Rub1)ylation, Deacetylation, No Modification, Demethylation." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000004 ! In Vitro
+
+[Term]
+id: BIOGRID_SYSTEM:0000017
+name: Co-crystal Structure
+def: "Interaction directly demonstrated at the atomic level by X-ray crystallography. Also used for NMR or Electron Microscopy (EM) structures. If there is no obvious bait-hit directionality to the interaction involving 3 or more proteins, then the co-crystallized proteins should be listed as a complex." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000004 ! In Vitro
+
+[Term]
+id: BIOGRID_SYSTEM:0000018
+name: Far Western
+def: "An interaction is detected between a protein immobilized on a membrane and a purified protein probe." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000004 ! In Vitro
+
+[Term]
+id: BIOGRID_SYSTEM:0000019
+name: Protein-peptide
+def: "An interaction is detected between a protein and a peptide derived from an interaction partner. This includes phage display experiments." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000004 ! In Vitro
+
+[Term]
+id: BIOGRID_SYSTEM:0000020
+name: Protein-RNA
+def: "An interaction is detected between and protein and an RNA in vitro." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000004 ! In Vitro
+
+[Term]
+id: BIOGRID_SYSTEM:0000021
+name: Reconstituted Complex
+def: "An interaction is detected between purified proteins in vitro." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000004 ! In Vitro
+
+[Term]
+id: BIOGRID_SYSTEM:0000005
+name: Genetic Interaction
+is_a: BIOGRID_SYSTEM:0000001 ! Experimental System
+
+[Term]
+id: BIOGRID_SYSTEM:0000022
+name: Dosage Growth Defect
+def: "A genetic interaction is inferred when over expression or increased dosage of one gene causes a growth defect in a strain that is mutated or deleted for another gene." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000023
+name: Dosage Lethality
+def: "A genetic interaction is inferred when over expression or increased dosage of one gene causes lethality in a strain that is mutated or deleted for another gene." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000024
+name: Dosage Rescue
+def: "A genetic interaction is inferred when over expression or increased dosage of one gene rescues the lethality or growth defect of a strain that is mutated or deleted for another gene." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000025
+name: Negative Genetic
+def: "Mutations/deletions in separate genes, each of which alone causes a minimal phenotype, but when combined in the same cell results in a more severe fitness defect or lethality under a given condition. This term is reserved for high or low throughput studies with scores." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000026
+name: Phenotypic Enhancement
+def: "A genetic interaction is inferred when mutation or overexpression of one gene results in enhancement of any phenotype (other than lethality/growth defect) associated with mutation or over expression of another gene." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000027
+name: Phenotypic Suppression
+def: "A genetic interaction is inferred when mutation or over expression of one gene results in suppression of any phenotype (other than lethality/growth defect) associated with mutation or over expression of another gene." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000028
+name: Positive Genetic
+def: "Mutations/deletions in separate genes, each of which alone causes a minimal phenotype, but when combined in the same cell results in a less severe fitness defect than expected under a given condition. This term is reserved for high or low throughput studies with scores." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000029
+name: Synthetic Growth Defect
+def: "A genetic interaction is inferred when mutations in separate genes, each of which alone causes a minimal phenotype, result in a significant growth defect under a given condition when combined in the same cell." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000030
+name: Synthetic Haploinsufficiency
+def: "A genetic interaction is inferred when mutations or deletions in separate genes, at least one of which is hemizygous, cause a minimal phenotype alone but result in lethality when combined in the same cell under a given condition." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000031
+name: Synthetic Lethality
+def: "A genetic interaction is inferred when mutations or deletions in separate genes, each of which alone causes a minimal phenotype, result in lethality when combined in the same cell under a given condition." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000032
+name: Synthetic Rescue
+def: "A genetic interaction is inferred when mutations or deletions of one gene rescues the lethality or growth defect of a strain mutated or deleted for another gene." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000033
+name: Synthetic Growth Defect
+def: "A genetic interaction is inferred when mutations in separate genes, each of which alone causes a minimal phenotype, result in a significant growth defect under a given condition when combined in the same cell." [BIOGRID:curators]
+is_a: BIOGRID_SYSTEM:0000005 ! Genetic Interaction
+
+[Term]
+id: BIOGRID_SYSTEM:0000034
+name: Invivo
+is_obsolete: true
+
+[Term]
+id: BIOGRID_SYSTEM:0000035
+name: Invitro
+is_obsolete: true
+
+[Term]
+id: BIOGRID_SYSTEM:0000036
+name: Epistatic MiniArray Profile
+def: "An observed double mutant colony's sizes are compared to those that would be expected from a distribution of typical double mutant colonies of each strain. Each interaction is assigned a score which indicated the magnitude of the difference from the expected value and the certainty of the score. A negative (or aggravating) score < -3 would imply synthetic sick/lethal interaction and a positive (alleviating) score >+3 would imply suppressor interaction." [BIOGRID:curators]
+is_obsolete: true
