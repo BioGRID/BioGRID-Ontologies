@@ -1,2 +1,2 @@
-# Ontologies
-OBO Formatted Ontology Files for BioGRID Tools
+# BioGRID-Ontologies
+Hosting location for various OBO formatted BioGRID-Ontologies for use in various different BioGRID applications and tools.
