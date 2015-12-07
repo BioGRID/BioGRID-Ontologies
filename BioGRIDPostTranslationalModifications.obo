@@ -1,0 +1,115 @@
+format-version: 1.2
+data-version: 2.4
+date: 07:12:2015 01:59
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+
+[Term]
+id: BIOGRID_MOD:0000001
+name: Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000002
+name: Phosphorylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000003
+name: Ubiquitination
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000004
+name: Sumoylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000005
+name: Dephosphorylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000006
+name: Methylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000007
+name: Prenylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000008
+name: Acetylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000009
+name: Deubiquitination
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000010
+name: Proteolytic Processing
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000011
+name: Glycosylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000012
+name: Nedd(Rub1)ylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000013
+name: Deacetylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000014
+name: No Modification
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000015
+name: Demethylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000016
+name: Ribosylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000017
+name: Desumoylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000018
+name: Deneddylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000019
+name: FAT10ylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000020
+name: ISG15ylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000021
+name: Neddylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000022
+name: Ufmylation
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
