@@ -1,0 +1,216 @@
+format-version: 1.2
+data-version: 2.4
+date: 07:12:2015 17:07
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+
+[Term]
+id: BIOGRID_CHEMACTION:0000001
+name: Chemical Action
+def: "Terms relating to effects and modes of employment for drugs and chemicals." [BIOGRID:curators]
+
+[Term]
+id: BIOGRID_CHEMACTION:0000002
+name: inhibitor
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000003
+name: antagonist
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000004
+name: agonist
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000005
+name: binder
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000006
+name: antibody
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000007
+name: activator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000008
+name: cofactor
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000009
+name: chaperone
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000010
+name: modulator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000011
+name: inactivator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000012
+name: inducer
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000013
+name: unknown
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000014
+name: metabolizer
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000015
+name: multitarget
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000016
+name: substrate
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000017
+name: cleavage
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000018
+name: stimulator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000019
+name: ligand
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000020
+name: product of
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000021
+name: inhibitory allosteric modulator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000022
+name: negative modulator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000023
+name: positive allosteric modulator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000024
+name: inverse agonist
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000025
+name: partial agonist
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000026
+name: potentiator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000027
+name: blocker
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000028
+name: binding
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000029
+name: adduct
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000030
+name: chelator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000031
+name: partial antagonist
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000032
+name: suppressor
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000033
+name: intercalation
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000034
+name: positive modulator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000035
+name: allosteric modulator
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000036
+name: desensitize the target
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000037
+name: conversion inhibitor
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000038
+name: acetylation
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000039
+name: reducer
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000040
+name: "inhibitor, competitive"
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000041
+name: neutralizer
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000042
+name: competitive
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action

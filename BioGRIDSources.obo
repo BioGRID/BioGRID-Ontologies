@@ -1,0 +1,83 @@
+format-version: 1.2
+data-version: 2.4
+date: 07:12:2015 17:07
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+
+[Term]
+id: BIOGRID_SOURCE:000001
+name: Source
+def: "Database/website source references for curated data." [BIOGRID:curators]
+
+[Term]
+id: BIOGRID_SOURCE:000002
+name: BioGRID
+def: "The BioGRID Database (http://thebiogrid.org)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000010 ! BioGRID Sources
+
+[Term]
+id: BIOGRID_SOURCE:000003
+name: PhosphoGRID
+def: "The PhosphoGRID Database (http://www.phosphogrid.org)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000010 ! BioGRID Sources
+
+[Term]
+id: BIOGRID_SOURCE:000004
+name: FlyBase
+def: "The FlyBase Model Organism Database (http://flybase.org)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000011 ! Model Organism Databases
+
+[Term]
+id: BIOGRID_SOURCE:000005
+name: WormBase
+def: "The WormBase Model Organism Database (http://www.wormbase.org)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000011 ! Model Organism Databases
+
+[Term]
+id: BIOGRID_SOURCE:000006
+name: PomBase
+def: "The PomBase Model Organism Database (http://www.pombase.org)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000011 ! Model Organism Databases
+
+[Term]
+id: BIOGRID_SOURCE:000007
+name: MGI
+def: "The Mouse Genome Informatics Model Organism Database (http://www.informatics.jax.org)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000011 ! Model Organism Databases
+
+[Term]
+id: BIOGRID_SOURCE:000008
+name: DrugBank
+def: "The Drugbank Drug and Drug Target Database (http://www.drugbank.ca)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000012 ! Chemical/Drug Databases
+
+[Term]
+id: BIOGRID_SOURCE:000009
+name: SGD
+def: "The Saccharomyces Genome Database (http://www.yeastgenome.org)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000011 ! Model Organism Databases
+
+[Term]
+id: BIOGRID_SOURCE:000010
+name: BioGRID Sources
+def: "Internally developed BioGRID Resources" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000001 ! Source
+
+[Term]
+id: BIOGRID_SOURCE:000011
+name: Model Organism Databases
+def: "Model Organism Database Resources" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000001 ! Source
+
+[Term]
+id: BIOGRID_SOURCE:000012
+name: Chemical/Drug Databases
+def: "Chemical and Drug annotation and target databases" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000001 ! Source
+
+[Term]
+id: BIOGRID_SOURCE:000013
+name: Yeast Kinome
+def: "The Saccharomyces cerevisiae Kinase and Phosphatase Interactome Resource (http://www.yeastkinome.com)" [BIOGRID:curators]
+is_a: BIOGRID_SOURCE:000010 ! BioGRID Sources

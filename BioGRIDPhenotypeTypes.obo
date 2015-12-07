@@ -1,0 +1,30 @@
+format-version: 1.2
+data-version: 2.4
+date: 07:12:2015 17:07
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+
+[Term]
+id: BIOGRID_PTYPE:0000001
+name: Phenotype Type
+
+[Term]
+id: BIOGRID_PTYPE:0000002
+name: Wild Type
+is_a: BIOGRID_PTYPE:0000001 ! Phenotype Type
+
+[Term]
+id: BIOGRID_PTYPE:0000003
+name: Partial Rescue
+is_a: BIOGRID_PTYPE:0000001 ! Phenotype Type
+
+[Term]
+id: BIOGRID_PTYPE:0000004
+name: Undetermined
+is_a: BIOGRID_PTYPE:0000001 ! Phenotype Type
+
+[Term]
+id: BIOGRID_PTYPE:0000005
+name: Unspecified
+is_a: BIOGRID_PTYPE:0000001 ! Phenotype Type
