@@ -1,0 +1,23 @@
+format-version: 1.2
+data-version: 2.4
+date: 07:12:2015 01:29
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+
+[Term]
+id: BIOGRID_TP:0000001
+name: Throughput
+def: "BioGRID Throughput Tags used to classify interactions." [BIOGRID:Curators]
+
+[Term]
+id: BIOGRID_TP:0000002
+name: High Throughput
+def: "Interactions derived via the use of automation equipment on a large-scale." [BIOGRID:Curators]
+is_a: BIOGRID_TP:0000001 ! Throughput
+
+[Term]
+id: BIOGRID_TP:0000003
+name: Low Throughput
+def: "Interactions derived via the use of small scale classical cell biology techniques." [BIOGRID:Curators]
+is_a: BIOGRID_TP:0000001 ! Throughput
