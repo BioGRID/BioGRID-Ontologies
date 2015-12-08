@@ -10,7 +10,7 @@ import collections
 
 generatingTool = "BioGRID Tab2OBO 0.0.1a"
 formatVersion = "1.2"
-colCount = 6
+colCount = 8
 
 # Process Command Line Input
 argParser = argparse.ArgumentParser( description = 'Convert tab delimited text into an OBO file' )
@@ -56,6 +56,13 @@ with open( inputArgs.input[0], 'r' ) as fp :
 		termDefSource = splitLine[3].strip( )
 		termRelationship = splitLine[4].strip( ).split( "|" )
 		termObsolete = splitLine[5].strip( )
+		termSynonym = splitLine[6].strip( ).split( "|" )
+		termSynonymType = splitLine[7].strip( ).split( "|" )
+		
+		if len(termSynonym) != len(termSynonymType) :
+			print "ERROR ON LINE " + str(lineCount) + ": You must have the same number of synonym types as you do synonyms, both separated by '|'"
+			hasErrors = True
+			continue
 		
 		if termObsolete.lower( ) == "true" :
 			termObsolete = True
@@ -67,7 +74,7 @@ with open( inputArgs.input[0], 'r' ) as fp :
 			hasErrors = True
 			continue
 		
-		ontologyTerms[termID.lower( )] = { "ID" : termID, "NAME" : termName, "DEF" : termDef, "DEF_SOURCE" : termDefSource, "RELATIONSHIP" : termRelationship, "OBSOLETE" : termObsolete }
+		ontologyTerms[termID.lower( )] = { "ID" : termID, "NAME" : termName, "DEF" : termDef, "DEF_SOURCE" : termDefSource, "RELATIONSHIP" : termRelationship, "OBSOLETE" : termObsolete, "SYNONYMS" : termSynonym, "SYNONYM_TYPES" : termSynonymType }
 				
 if hasErrors :
 	print "Output File Not Generated Due to Errors Above"
@@ -81,6 +88,7 @@ else :
 		fp.write( "saved-by: " + inputArgs.author[0] + "\n" )
 		fp.write( "auto-generated-by: " + generatingTool + "\n" )
 		fp.write( "default-namespace: " + inputArgs.namespace[0] + "\n" )
+		fp.write( "synonymtypedef: abbreviation \"Abbreviated Representation of the Term\" EXACT\n" )
 	
 		for (termID, ontologyTerm) in ontologyTerms.items( ) :
 			fp.write( "\n" )
@@ -95,8 +103,15 @@ else :
 				
 				if ontologyTerm["DEF_SOURCE"] != "none" :
 					fp.write( " [" + ontologyTerm['DEF_SOURCE'] + "]" )
+				else :
+					fp.write( " []" )
 					
 				fp.write( "\n" )
+				
+			# Print all the Synonyms if the term has any assigned to it
+			for synonym, synonymType in zip(ontologyTerm['SYNONYMS'], ontologyTerm['SYNONYM_TYPES']) :
+				if synonym.lower( ) != "none" :
+					fp.write( "synonym: \"" + synonym.replace( "\"", "" ) + "\" EXACT " + synonymType + " []\n" )
 			
 			# Print all Relationships if the term it's related to
 			# can also be found in the ontology

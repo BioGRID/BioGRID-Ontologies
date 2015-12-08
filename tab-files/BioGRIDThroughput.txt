@@ -1,4 +1,4 @@
-ID	Name	Def	Def Source	Relationship	Is Obsolete
-BIOGRID_TP:0000001	Throughput	BioGRID Throughput Tags used to classify interactions.	BIOGRID:Curators	root	FALSE
-BIOGRID_TP:0000002	High Throughput	Interactions derived via the use of automation equipment on a large-scale.	BIOGRID:Curators	BIOGRID_TP:0000001	FALSE
-BIOGRID_TP:0000003	Low Throughput	Interactions derived via the use of small scale classical cell biology techniques.	BIOGRID:Curators	BIOGRID_TP:0000001	FALSE
+ID	Name	Def	Def Source	Relationship	Is Obsolete	Synonym	Synonym Type
+BIOGRID_TP:0000001	Throughput	BioGRID Throughput Tags used to classify interactions.	BIOGRID:Curators	root	FALSE	none	none
+BIOGRID_TP:0000002	High Throughput	Interactions derived via the use of automation equipment on a large-scale.	BIOGRID:Curators	BIOGRID_TP:0000001	FALSE	none	none
+BIOGRID_TP:0000003	Low Throughput	Interactions derived via the use of small scale classical cell biology techniques.	BIOGRID:Curators	BIOGRID_TP:0000001	FALSE	none	none

@@ -1,6 +1,6 @@
-ID	Name	Def	Def Source	Relationship	Is Obsolete
-BIOGRID_PTYPE:0000001	Phenotype Type	none	none	root	FALSE
-BIOGRID_PTYPE:0000002	Wild Type	none	none	BIOGRID_PTYPE:0000001	FALSE
-BIOGRID_PTYPE:0000003	Partial Rescue	none	none	BIOGRID_PTYPE:0000001	FALSE
-BIOGRID_PTYPE:0000004	Undetermined	none	none	BIOGRID_PTYPE:0000001	FALSE
-BIOGRID_PTYPE:0000005	Unspecified	none	none	BIOGRID_PTYPE:0000001	FALSE
+ID	Name	Def	Def Source	Relationship	Is Obsolete	Synonym	Synonym Type
+BIOGRID_PTYPE:0000001	Phenotype Type	none	none	root	FALSE	none	none
+BIOGRID_PTYPE:0000002	Wild Type	none	none	BIOGRID_PTYPE:0000001	FALSE	none	none
+BIOGRID_PTYPE:0000003	Partial Rescue	none	none	BIOGRID_PTYPE:0000001	FALSE	none	none
+BIOGRID_PTYPE:0000004	Undetermined	none	none	BIOGRID_PTYPE:0000001	FALSE	none	none
+BIOGRID_PTYPE:0000005	Unspecified	none	none	BIOGRID_PTYPE:0000001	FALSE	none	none
