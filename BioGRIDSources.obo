@@ -1,9 +1,10 @@
 format-version: 1.2
-data-version: 2.4
-date: 07:12:2015 17:07
+data-version: 2.5
+date: 07:12:2015 20:12
 saved-by: biogrid_team
 auto-generated-by: BioGRID Tab2OBO 0.0.1a
 default-namespace: biogrid_ontologies
+synonymtypedef: abbreviation "Abbreviated Representation of the Term" EXACT
 
 [Term]
 id: BIOGRID_SOURCE:000001

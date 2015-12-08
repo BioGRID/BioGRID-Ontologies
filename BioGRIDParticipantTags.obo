@@ -1,0 +1,206 @@
+format-version: 1.2
+data-version: 2.5
+date: 07:12:2015 20:12
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+synonymtypedef: abbreviation "Abbreviated Representation of the Term" EXACT
+
+[Term]
+id: BIOGRID_PTAG:0000001
+name: Participant Tag
+def: "An tag denoting additional annotation specifically attributed to a single participant" [BioGRID:Curators]
+
+[Term]
+id: BIOGRID_PTAG:0000002
+name: Ubiquitin Functional Group
+def: "Tag mappings from the Ubiquitin Functional Group column of the Ubiquitin Project Supplementary File." [BioGRID:Curators]
+is_a: BIOGRID_PTAG:0000001 ! Participant Tag
+
+[Term]
+id: BIOGRID_PTAG:0000003
+name: Post Translational Modifications
+def: "These are dynamic tags for entries pertaining to Post Translational Modifications on the Protein." [BioGRID:Curators]
+is_a: BIOGRID_PTAG:0000001 ! Participant Tag
+
+[Term]
+id: BIOGRID_PTAG:0000004
+name: DUB
+def: "Deubiquitinating enzyme that releases free ubiquitin from ubiquitinated proteins or polyubiquitin chains; there are two DUB families: the cysteine protease family (USP, UCH, MJD, and OTU; eg, yeast UBP2) and the metalloprotease JAMM/MPN family (eg, human BRCC3)." [BioGRID:Curators]
+synonym: "DUB" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000005
+name: BRCA1-A COMPLEX
+def: "Seven-member complex that functions in the DNA damage response and has structural similarity to the 19S proteasomal lid; has E3 ligase and deubiquitinase activities." [BioGRID:Curators]
+synonym: "BRCA1-A" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000006
+name: E3
+def: "Ubiquitin ligase; binds ubiquitin-conjugated E2 enzyme and a protein substrate at distinct domains to mediate formation of a covalent bond between ubiquitin and the protein; E3s are divided into HECT or RING E3 classes based on their E2-interacting domain." [BioGRID:Curators]
+synonym: "E3" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000007
+name: UBP
+def: "Ubiquitin binding protein; this functional group includes proteins with UBA, CUE, UIM, VHS, GAT, NZF, UBZ, GLUE, PRU, or PFU domains." [BioGRID:Curators]
+synonym: "UBP" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000008
+name: COP9 SIGNALOSOME
+def: "Complex that has deneddylase activity and reverses cullin neddylation; has structural similarity to the 19S proteasomal lid." [BioGRID:Curators]
+synonym: "COP9" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000009
+name: E2
+def: "Ubiquitin-conjugating enzyme; interacts with the ubiquitin-E1 thioester species to become conjugated with ubiquitin, and subsequently transfers that ubiquitin to an E3 ubiquitin ligase. In some circumstances E2s can directly ubiquitinate substrates.  Contains a conserved UBC domain with a catalytic cysteine and the interaction interfaces for E1 and E3 enzymes; eg, yeast UBC7." [BioGRID:Curators]
+synonym: "E2" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000010
+name: ERAD
+def: "Endoplasmic reticulum-associated degradation; pathway in the ER for elimination of ER-associated proteins including misfolded secretory proteins. The process includes retrotranslocation of polyubiquitinated target proteins to the cytoplasm for subsequent degradation by the proteasome." [BioGRID:Curators]
+synonym: "ERAD" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000011
+name: PROTEASOME
+def: "Highly conserved multisubunit complex that functions to degrade ubiquitylated proteins; proteasomes are composed of a 20S core particle and a 19S regulatory particle that form the complete 26S structure. The 19S particle consists of 2 subcomplexes, the base and the lid, which has deubiquitinating activity. " [BioGRID:Curators]
+synonym: "PROT" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000012
+name: UFD1L/VCP/NPLOC4 COMPLEX
+def: "Complex of hexameric AAA ATPase VCP/Cdc48 and cofactors UFD1L and NPLOC4; hydrolysis of ATP by VCP/Cdc48 hydrolysis of ATP promotes structural remodeling of clients allowing the UFD1L/VCP/NPLOC4 complex to extract proteins from complexes or other cellular components such as the ER membrane in ER-associated degradation." [BioGRID:Curators]
+synonym: "UVNC" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000013
+name: NEDD8 E2
+def: "Nedd8-conjugating enzyme; contains a conserved catalytic core domain that is sufficient for interacting with E1, forming an E2-Nedd8 thioester intermediate, and for interacting with E3 target complexes. Accepts the ubiquitin-like protein Nedd8 from the E1-Nedd8 thioester species, and catalyzes its covalent attachment to an E3 ubiquitin ligase." [BioGRID:Curators]
+synonym: "N8 E2" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000014
+name: NEDD8 E1
+def: "Nedd8-activating enzyme; catalyzes the adenylation of the C-terminal glycine residue with ATP and forms a covalent E1-Nedd8 thioester intermediate, in preparation for transfer to an E2 enzyme." [BioGRID:Curators]
+synonym: "N8 E1" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000015
+name: E1
+def: "Ubiquitin-activating enzyme; catalyzes C-terminal adenylation of ubiquitin followed by formation of a high-energy ubiquitin-E1 thioester bond, in preparation for transfer to an E2 enzyme. There are two E1 enzymes in humans, UBA1 and UBA6, and one E1 in yeast, UBA1." [BioGRID:Curators]
+synonym: "E1" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000016
+name: UEV
+def: "Ubiquitin E2 variant that has a domain similar to a UBC domain (found in E2s) and can bind ubiquitin but lacks the catalytic Cys residue; UEV domain proteins are often found in complex with E2s." [BioGRID:Curators]
+synonym: "UEV" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000017
+name: Ubiquitin
+def: "Highly conserved 76 amino acid protein that undergoes covalent attachment to a substrate protein for a number of possible purposes, such as degradation, regulation, or endocytosis.  Often encoded by multiple genes in an organism, including fusion genes of ubiquitin and a ribosomal protein (e.g. human RPS27A or S. cerevisiae RPS31)." [BioGRID:Curators]
+synonym: "UB" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000018
+name: PROTEASOME CHAPERONE
+def: "Protein that is required for proper proteasome assembly, either by interaction with the proteasome during its assembly or by regulation of the assembly process." [BioGRID:Curators]
+synonym: "PROT CHAP" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000019
+name: NEDD8
+def: "Ubiquitin-like modifier that becomes conjugated to cullin subunits of the cullin-RING ligases in a process called neddylation. The yeast protein is encoded by RUB1." [BioGRID:Curators]
+synonym: "N8" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000020
+name: NEDD8 E3
+def: "Ligase that functions in the neddylation process to ligate Nedd8 to cullin subunits of the cullin-RING ligases." [BioGRID:Curators]
+synonym: "N8 E3" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000021
+name: NEDD E3
+def: "Ligase that functions in the neddylation process to ligate Nedd8 to cullin subunits of the cullin-RING ligases." [BioGRID:Curators]
+synonym: "NEDD E3" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
+
+[Term]
+id: BIOGRID_PTAG:0000022
+name: Ubiquitination
+def: "Ubiquitination post translational modifications have been identified for this gene." [BioGRID:Curators]
+synonym: "UBI" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000003 ! Post Translational Modifications
+
+[Term]
+id: BIOGRID_PTAG:0000023
+name: Phosphorylation
+def: "Phosphorylation post translational modifications have been identified for this gene." [BioGRID:Curators]
+synonym: "PHO" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000003 ! Post Translational Modifications
+
+[Term]
+id: BIOGRID_PTAG:0000024
+name: ISG15ylation
+def: "ISG15ylation post translational modifications have been identified for this gene." [BioGRID:Curators]
+synonym: "ISG15" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000003 ! Post Translational Modifications
+
+[Term]
+id: BIOGRID_PTAG:0000025
+name: Neddylation
+def: "Neddylation post translational modifications have been identified for this gene." [BioGRID:Curators]
+synonym: "NEDD" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000003 ! Post Translational Modifications
+
+[Term]
+id: BIOGRID_PTAG:0000026
+name: Fat10ylation
+def: "Fat10ylation post translational modifications have been identified for this gene." [BioGRID:Curators]
+synonym: "FAT10" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000003 ! Post Translational Modifications
+
+[Term]
+id: BIOGRID_PTAG:0000027
+name: Sumoylation
+def: "Sumoylation post translational modifications have been identified for this gene." [BioGRID:Curators]
+synonym: "SUMO" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000003 ! Post Translational Modifications
+
+[Term]
+id: BIOGRID_PTAG:0000028
+name: Ufmylation
+def: "Ufmylation post translational modifications have been identified for this gene." [BioGRID:Curators]
+synonym: "UFM" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000003 ! Post Translational Modifications
+
+[Term]
+id: BIOGRID_PTAG:0000029
+name: NEDD8 PROTEASE
+def: "Deneddylation enzyme that removes NEDD8 from substrates" [BioGRID:Curators]
+synonym: "N8 PROT" EXACT abbreviation []
+is_a: BIOGRID_PTAG:0000002 ! Ubiquitin Functional Group
