@@ -12,3 +12,4 @@ BIOGRID_SOURCE:000010	BioGRID Sources	Internally developed BioGRID Resources	BIO
 BIOGRID_SOURCE:000011	Model Organism Databases	Model Organism Database Resources	BIOGRID:curators	BIOGRID_SOURCE:000001	FALSE	none	none
 BIOGRID_SOURCE:000012	Chemical/Drug Databases	Chemical and Drug annotation and target databases	BIOGRID:curators	BIOGRID_SOURCE:000001	FALSE	none	none
 BIOGRID_SOURCE:000013	Yeast Kinome	The Saccharomyces cerevisiae Kinase and Phosphatase Interactome Resource (http://www.yeastkinome.com)	BIOGRID:curators	BIOGRID_SOURCE:000010	FALSE	none	none
+BIOGRID_SOURCE:000014	BioGRID Ubiquitin Project	The BioGRID Ubiquitin Curation Project (http://thebiogrid.org)	BIOGRID:curators	BIOGRID_SOURCE:000010	FALSE	none	none
