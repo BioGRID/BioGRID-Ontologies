@@ -1,0 +1,22 @@
+format-version: 1.2
+data-version: 2.7
+date: 19:12:2015 08:55
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+synonymtypedef: abbreviation "Abbreviated Representation of the Term" EXACT
+
+[Term]
+id: BIOGRID_IDENT:0000001
+name: Post-Translational Modification Identities
+def: "Terms used to further clarify the identity of PTM relationships" [BioGRID:Curators]
+
+[Term]
+id: BIOGRID_IDENT:0000002
+name: Catalytic
+is_a: BIOGRID_IDENT:0000001 ! Post-Translational Modification Identities
+
+[Term]
+id: BIOGRID_IDENT:0000003
+name: Regulatory
+is_a: BIOGRID_IDENT:0000001 ! Post-Translational Modification Identities
