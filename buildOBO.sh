@@ -14,3 +14,4 @@ $python $generator -i $tabFiles/BioGRIDPhenotypeTypes.txt -o BioGRIDPhenotypeTyp
 $python $generator -i $tabFiles/BioGRIDPostTranslationalModifications.txt -o BioGRIDPostTranslationalModifications.obo -v $version -n $namespace -a $author
 $python $generator -i $tabFiles/BioGRIDSources.txt -o BioGRIDSources.obo -v $version -n $namespace -a $author
 $python $generator -i $tabFiles/BioGRIDThroughput.txt -o BioGRIDThroughput.obo -v $version -n $namespace -a $author
+$python $generator -i $tabFiles/BioGRIDPostTranslationalModificationIdentities.txt -o BioGRIDPostTranslationalModificationIdentities.obo -v $version -n $namespace -a $author

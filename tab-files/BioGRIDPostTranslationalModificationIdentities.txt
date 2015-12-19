@@ -1,0 +1,4 @@
+ID	Name	Def	Def Source	Relationship	Is Obsolete	Synonym	Synonym Type
+BIOGRID_IDENT:0000001	Post-Translational Modification Identities	Terms used to further clarify the identity of PTM relationships	BioGRID:Curators	root	FALSE	none	none
+BIOGRID_IDENT:0000002	Catalytic	none	BioGRID:Curators	BIOGRID_IDENT:0000001	FALSE	none	none
+BIOGRID_IDENT:0000003	Regulatory	none	BioGRID:Curators	BIOGRID_IDENT:0000001	FALSE	none	none
