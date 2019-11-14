@@ -102,7 +102,7 @@ is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
 
 [Term]
 id: BIOGRID_MOD:0000020
-name: ISG15ylation
+name: ISGylation
 is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
 
 [Term]
