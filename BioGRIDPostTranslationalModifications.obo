@@ -114,3 +114,8 @@ is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
 id: BIOGRID_MOD:0000022
 name: Ufmylation
 is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
+
+[Term]
+id: BIOGRID_MOD:0000023
+name: ATG12-ATG5 conjugate
+is_a: BIOGRID_MOD:0000001 ! Post-Translational Modification
