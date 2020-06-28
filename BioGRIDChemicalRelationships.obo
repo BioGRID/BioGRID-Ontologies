@@ -1,0 +1,22 @@
+format-version: 1.2
+data-version: 2.7
+date: 28:6:2020 08:55
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+synonymtypedef: abbreviation "Abbreviated Representation of the Term" EXACT
+
+[Term]
+id: BIOGRID_CHEMREL:0000001
+name: Chemical Relationship
+def: "Terms relating to relationships between chemicals and proteins." [BIOGRID:curators]
+
+[Term]
+id: BIOGRID_CHEMREL:0000002
+name: target
+is_a: BIOGRID_CHEMREL:0000001 ! Chemical Relationship
+
+[Term]
+id: BIOGRID_CHEMREL:0000003
+name: recruited E3 ligase
+is_a: BIOGRID_CHEMREL:0000001 ! Chemical Relationship
