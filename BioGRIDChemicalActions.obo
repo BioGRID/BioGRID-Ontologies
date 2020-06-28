@@ -215,3 +215,8 @@ is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
 id: BIOGRID_CHEMACTION:0000042
 name: competitive
 is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
+
+[Term]
+id: BIOGRID_CHEMACTION:0000043
+name: degradation
+is_a: BIOGRID_CHEMACTION:0000001 ! Chemical Action
