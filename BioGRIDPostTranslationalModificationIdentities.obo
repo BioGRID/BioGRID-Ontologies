@@ -20,3 +20,8 @@ is_a: BIOGRID_IDENT:0000001 ! Post-Translational Modification Identities
 id: BIOGRID_IDENT:0000003
 name: Regulatory
 is_a: BIOGRID_IDENT:0000001 ! Post-Translational Modification Identities
+
+[Term]
+id: BIOGRID_IDENT:0000004
+name: PTM
+is_a: BIOGRID_IDENT:0000001 ! Post-Translational Modification Identities
