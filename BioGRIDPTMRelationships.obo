@@ -1,0 +1,27 @@
+format-version: 1.2
+data-version: 2.7
+date: 29:6:2020 08:55
+saved-by: biogrid_team
+auto-generated-by: BioGRID Tab2OBO 0.0.1a
+default-namespace: biogrid_ontologies
+synonymtypedef: abbreviation "Abbreviated Representation of the Term" EXACT
+
+[Term]
+id: BIOGRID_PTMREL:0000001
+name: PTM Relationship
+def: "Terms relating to relationships between ptm sites and proteins." [BIOGRID:curators]
+
+[Term]
+id: BIOGRID_PTMREL:0000002
+name: kinase
+is_a: BIOGRID_PTMREL:0000001 ! PTM Relationship
+
+[Term]
+id: BIOGRID_CHEMREL:0000003
+name: phosphatase
+is_a: BIOGRID_PTMREL:0000001 ! PTM Relationship
+
+[Term]
+id: BIOGRID_CHEMREL:0000004
+name: conjugate
+is_a: BIOGRID_PTMREL:0000001 ! PTM Relationship
