@@ -17,11 +17,11 @@ name: kinase
 is_a: BIOGRID_PTMREL:0000001 ! PTM Relationship
 
 [Term]
-id: BIOGRID_CHEMREL:0000003
+id: BIOGRID_PTMREL:0000003
 name: phosphatase
 is_a: BIOGRID_PTMREL:0000001 ! PTM Relationship
 
 [Term]
-id: BIOGRID_CHEMREL:0000004
+id: BIOGRID_PTMREL:0000004
 name: conjugate
 is_a: BIOGRID_PTMREL:0000001 ! PTM Relationship
